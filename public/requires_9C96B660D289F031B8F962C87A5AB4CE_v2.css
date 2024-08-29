@@ -1,0 +1,440 @@
+.welcomeList {
+    line-height: 30px;
+  }
+  .welcomeList .mobileOnly {
+    display: none;
+  }
+  .desktopOnly span {
+    display: inline;
+  }
+  .welcomeList h4 {
+    font-weight: bold;
+  }
+  .cta-card {
+    margin-bottom: 30px;
+  }
+  .more-info .more-block:after {
+    content: " ";
+    height: 40px;
+    width: 1px;
+    position: absolute;
+    right: 15px;
+    background: #444;
+    top: 10px;
+  }
+  .more-info a.info-link {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+  .more-info a.info-link span.copy {
+    display: inline-block;
+    vertical-align: middle;
+    color: #444;
+  }
+  .more-info .follow-btn,
+  .more-info .tweet-btn {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .more-info .follow-btn span,
+  .more-info .tweet-btn span {
+    display: block;
+    margin-bottom: 4px;
+  }
+  .more-info .fa-stack-2x {
+    font-size: 3em;
+    color: #d0d0d0;
+  }
+  .more-info .fa-stack-1x {
+    font-size: 1.5em;
+    color: #fff;
+  }
+  .more-info .fa-stack {
+    width: 3em;
+    height: 3em;
+    line-height: 3em;
+  }
+  .share-card .fa {
+    display: block;
+    font-size: 55px;
+    margin: 30px auto;
+    color: #8695a2;
+  }
+  .unread-enquiries-card h2.sub-title {
+    margin-bottom: 50px !important;
+  }
+  .unread-enquiries-card p {
+    margin: 0;
+  }
+  .unread-enquiries-card .enq-total {
+    margin: 5px;
+  }
+  .unread-enquiries-card .enq-total span {
+    color: #5cb85c;
+    font-size: 4em;
+  }
+  .unread-enquiries-card .btn {
+    margin-top: 10px;
+  }
+  .chaseable-enquiries-card h2.sub-title {
+    margin-bottom: 50px !important;
+  }
+  .chaseable-enquiries-card p {
+    margin: 0;
+  }
+  .chaseable-enquiries-card .enq-total {
+    margin: 5px;
+  }
+  .chaseable-enquiries-card .enq-total span {
+    color: #ec971f;
+    font-size: 4em;
+  }
+  .chaseable-enquiries-card .btn {
+    margin-top: 10px;
+  }
+  @media only screen and (max-width: 575px) {
+    .unread-enquiries-card h2.sub-title {
+      margin-bottom: 20px !important;
+    }
+  }
+  @media only screen and (max-width: 956px) {
+    .more-info .more-block:after {
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 575px) {
+    .card {
+      height: auto !important;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    .manage-card {
+      padding-right: 220px;
+    }
+    .manage-card .btn {
+      position: absolute;
+      right: 30px;
+      top: 50%;
+      margin-top: -18px;
+    }
+  }
+  .property-list {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+  .property-list .below-pagination {
+    padding-top: 20px !important;
+  }
+  .property-list img {
+    width: 100%;
+  }
+  .property-list .property-item a span.edit {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    background: #468cc8;
+    color: #fff;
+    width: 61px;
+    padding: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  .search-listing-card img,
+  .list-property-card img {
+    max-width: 145px;
+    max-height: 100px;
+    height: auto;
+    display: block;
+    margin: 22px auto;
+  }
+  .search-listing-card .sub-copy {
+    text-align: left;
+    padding-left: 100px;
+    position: relative;
+  }
+  .search-listing-card .sub-copy img {
+    position: absolute;
+    left: 10px;
+    top: 0;
+    width: 70px;
+    margin: 0;
+    padding: 0;
+  }
+  @media only screen and (max-width: 650px),
+    only screen and (max-device-width: 650px) {
+    .page-header h2 {
+      text-align: center;
+    }
+    .welcomeList .mobileOnly span {
+      display: inline;
+    }
+    .desktopOnly {
+      display: none;
+    }
+  }
+  .share-block h2 {
+    margin: 0 0 20px;
+  }
+  .share-option {
+    padding: 0 0 30px;
+  }
+  .share-option p {
+    margin: 0 0 8px;
+  }
+  #contentPane {
+    float: left;
+    width: 710px;
+    position: relative;
+    z-index: 2;
+    padding-left: 20px;
+    -o-box-shadow: -10px 0 15px -10px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: -10px 0 15px -10px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: -10px 0 15px -10px rgba(0, 0, 0, 0.3);
+    box-shadow: -10px 0 15px -10px rgba(0, 0, 0, 0.3);
+    padding-bottom: 2000px;
+    margin-bottom: -2000px;
+  }
+  #contentContainer {
+    width: 960px;
+    border: 1px solid #c3c3c3;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    padding-bottom: 20px;
+    overflow: hidden;
+  }
+  .styleTable {
+    background-color: #fff;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    color: #999;
+    -webkit-box-shadow: inset 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  }
+  div.favourite {
+    width: 32px;
+    height: 32px;
+    background: rgba(0, 0, 0, 0)
+      url(//staticcdn.openrent.co.uk/images/staryellow_32.png) no-repeat 0 0;
+    float: left;
+    margin: 4px 10px 0 10px;
+  }
+  .adressColumn {
+    max-width: 250px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .nav-list li {
+    text-overflow: ellipsis;
+    max-width: 200px;
+    overflow: hidden;
+  }
+  #EnquiriesAwaitingAction table {
+    font-size: 14px;
+    overflow: auto;
+  }
+  #EnquiriesAwaitingAction.table td {
+    font-size: 12px;
+    padding: 10px 5px 10px 5px;
+  }
+  .headerText {
+    margin-top: 10px;
+    display: block;
+  }
+  .showHideManageOptions {
+    display: none;
+  }
+  .limitColumnWidth {
+    max-width: 180px;
+    overflow-wrap: break-word;
+  }
+  input.limitbuttonwidthTenantIssue,
+  a.limitbuttonwidthTenantIssue {
+    width: 152px;
+    overflow-wrap: break-word;
+    white-space: normal;
+  }
+  .make-switch {
+    float: right;
+  }
+  .slideButtonContainer {
+    max-width: 500px;
+  }
+  .searchAlertItem {
+    margin-right: 10px;
+  }
+  #contentContainer-new .contentPane__content div.statusBox {
+    font-size: 14px;
+    color: #999;
+    font-family: var(--or-font-heading-stack);
+  }
+  @media only screen and (max-width: 650px) {
+    #contentContainer {
+      width: auto;
+    }
+    #contentPane {
+      width: auto;
+      padding-left: 0;
+      max-width: 100%;
+    }
+    .headerText {
+      margin-top: 0;
+    }
+    .form-search label,
+    .form-inline label,
+    .form-search .input-append,
+    .form-inline .input-append,
+    .form-search .input-prepend,
+    .form-inline .input-prepend {
+      display: block;
+    }
+    .deleteRow {
+      display: block;
+    }
+    .deleteRow span {
+      display: none;
+    }
+    .searchalert_hide {
+      display: none;
+    }
+    .ListingsAwaitingAction thead tr th:nth-child(n + 2):nth-child(-n + 3),
+    .ListingsAwaitingAction tbody tr td:nth-child(n + 2):nth-child(-n + 3) {
+      display: none;
+    }
+    .CurrentEditingListings thead tr th:nth-child(n + 3):nth-child(-n + 3),
+    .CurrentEditingListings tbody tr td:nth-child(n + 3):nth-child(-n + 3) {
+      display: none;
+    }
+    .CurrentLiveListings > thead > tr > th:nth-child(n + 2):nth-child(-n + 4),
+    .CurrentLiveListings > tbody > tr > td:nth-child(n + 2):nth-child(-n + 4) {
+      display: none;
+    }
+    .CurrentManagingListings thead tr th:nth-child(n + 2):nth-child(-n + 3),
+    .CurrentManagingListings tbody tr td:nth-child(n + 2):nth-child(-n + 3) {
+      display: none;
+    }
+    .make-switch {
+      float: none;
+    }
+    .slideButtonContainer {
+      text-align: center;
+    }
+    div .bootstrap-timepicker {
+      margin: 0 auto;
+      width: 130px;
+    }
+    .searchAlertItem {
+      margin-right: 0;
+    }
+  }
+  .edit-profile .userPicContainer {
+    background-image: url(https://imagescdn.openrent.co.uk/userPhotos/768858/b3c7e119a6.JPG_t.JPG);
+    height: 100px;
+    width: 100px;
+    background-color: #fff;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    font-family: var(--or-font-stack);
+    display: block;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    margin: 0 auto;
+  }
+  .sticky-wrapper {
+    min-height: calc(100% - 200px);
+    margin: 0 auto;
+    background-color: #fff;
+  }
+  #contentContainer-new {
+    padding-top: 15px;
+  }
+  #contentContainer-new .myaccount #contentHeader a.userPicContainer {
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+  #contentContainer-new .contentPane {
+    background: none;
+    border: none;
+  }
+  #contentContainer-new .contentPane:before,
+  #contentContainer-new .contentPane:after {
+    display: none !important;
+  }
+  #contentContainer-new .contentPane__header {
+    background: none;
+    border: none;
+    padding: 0;
+  }
+  #contentContainer-new .contentPane__header:before,
+  #contentContainer-new .contentPane__header:after {
+    display: none !important;
+  }
+  #contentContainer-new .contentPane__content.transparent {
+    border: 0;
+    padding: 0;
+    background: none;
+  }
+  #contentContainer-new .contentPane__content:before,
+  #contentContainer-new .contentPane__content:after {
+    display: none !important;
+  }
+  #contentContainer-new h1,
+  #contentContainer-new h2,
+  #contentContainer-new h3,
+  #contentContainer-new h4,
+  #contentContainer-new h5,
+  #contentContainer-new h6 {
+    font-family: var(--or-font-heading-stack) !important;
+    color: #333;
+    line-height: 1 !important;
+  }
+  #contentContainer-new h2.sub-title,
+  #contentContainer-new h3.sub-title {
+    color: #9a9a9a;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+  #contentContainer-new .alert h2.sub-title {
+    color: #000;
+  }
+  #contentContainer-new .contentPane__header h1 {
+    font-size: 1.9rem;
+    margin-bottom: 0.5em;
+  }
+  #contentContainer-new .contentPane__content h3 {
+    font-size: 1.4em;
+  }
+  @media only screen and (max-width: 767px) {
+    #contentContainer-new .contentPane__header h1 {
+      font-size: 1.7em;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    #contentContainer-new {
+      padding-top: 75px;
+    }
+    #contentContainer-new.no-nav {
+      padding-top: 40px;
+    }
+    #contentContainer-new.no-nav .contentPane {
+      width: 100%;
+    }
+    #contentContainer-new.rent-now-stage {
+      padding-top: 15px;
+    }
+    #contentContainer-new.in-house-referencing-stage {
+      padding-top: 15px;
+    }
+  }
+  
