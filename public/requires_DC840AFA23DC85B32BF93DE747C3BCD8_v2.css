@@ -10477,7 +10477,7 @@ header.main-nav ul.large-nav-list > li {
   list-style: none;
   position: relative;
   height: 60px;
-  margin-left: 15px;
+  margin-left: 10px;
 }
 header.main-nav ul.large-nav-list > li.has-sub a {
   margin-right: 20px;
@@ -11596,6 +11596,7 @@ footer.openrent-footer {
   footer .bottom-menu {
     margin: 0 0 20px;
   }
+
 }
 .common-title-block {
   padding: 45px 0 35px;
@@ -12941,4 +12942,10 @@ textarea#message {
 .spacer {
   display: block;
   width: 50px;
+}
+
+@media (max-width: 960px) {
+  .spacer-nav {
+    display: none;
+  }
 }
